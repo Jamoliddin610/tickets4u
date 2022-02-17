@@ -1,0 +1,231 @@
+
+
+
+body{
+    padding-top: 20px ;
+    background: linear-gradient(120deg, rgba(218, 225, 244, 1) 55%, rgba(168, 181, 200, 1) 55%);
+}
+
+.content__box{
+    width: 90%;
+    height: 95vh;
+    margin: 0 auto;
+}
+.content__wrapper-first{
+    background-color: #eff4ff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: solid 3px #E0E4ED;
+
+}
+.content__wrapper-second {
+    background-color: #E8F1FA;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.content__wrapper-btns{
+    margin: 0 -12px;
+}
+.content__btn{
+    width: 102px;
+    height: 60px;
+    margin-right: 5px;
+    border: none;
+    background-color: #fff;
+    color: #A2A6B2;
+    border-radius: 0;
+    text-transform: capitalize;
+    outline: none;
+
+}
+.btn-check:checked+.btn-outline-primary{
+    background-color: #47B789;
+    border-color: #47B789;
+     box-shadow: none;
+
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #47B789 ;
+    border-color: #47B789;
+     box-shadow: none;
+
+}
+
+ .btn-outline-primary:active {
+     color: #fff;
+     background-color: #47B789 !important;
+     border-color:rgb(71, 183, 137);
+     outline: none;
+     box-shadow: none;
+ }
+.btn-outline-primary:focus {
+    box-shadow: 0;
+     background-color: #47B789;
+
+}
+.content__text{
+    color: #646870;
+}
+.content__name{
+    color: #5B6CB0;
+}
+.content__input-title{
+    color: #646870;
+    font-size: 12px;
+}
+.input-group-text{
+    background-color: #fff;
+    border-right: none;
+    color: #A2A6B2;
+    padding-right: 0;
+}
+.form-control{
+    border-left: none;
+    padding: 10px;
+}
+.form-control::placeholder{
+    font-size: 12px;
+}
+.input-group{
+    width: 92%;
+}
+.date-box{
+    width: 100%;
+}
+.date-content-box{
+    padding: 0;
+}
+.place-content-box{
+    padding: 0;
+}
+.place-box{
+    width: 100%;
+}
+.content__flight{
+    width: 100%;
+    padding: 12px 0;
+}
+
+
+
+/* jmolidddin started aniother section */
+
+.content__head-btns{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content__btn-head{
+    border-radius: 30px !important;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #646870;
+    background-color: #fff;
+    border: none;
+    
+}
+.content-btn-list{
+    width: 80%;
+}    
+.btn-check:checked+.content__btn-head {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    box-shadow: none;
+
+}
+
+.content__btn-head:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    box-shadow: none;
+
+}
+
+.content__btn-head:active {
+    color: #fff;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd;
+    outline: none;
+    box-shadow: none;
+}
+
+.content__btn-head:focus {
+    box-shadow: 0;
+    color: #fff;
+    background-color: #0d6efd;
+
+}
+.content__title-text{
+    color: #646870;
+    font-size: 14px;
+    font-weight:600;
+}
+.bx-right-arrow-alt{
+    color: #646870;
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+}
+.cards{
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+.card__img{
+    height: auto;
+    object-fit: contain;
+}
+.card-title,.card-when-text{
+    color: #646870;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-when-text{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.card-dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #646870;
+    display: inline-block;
+    margin:0 7px ;
+    position: relative;
+    bottom: 2px;
+}
+.stage{
+    padding: 6px 12px;
+    border-radius: 30px;
+    background-color: #4D4C5E;
+    color: #fff;
+    font-size: 12px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card-center{
+    padding: 0 80px;
+}
+.card-excact-time{
+    color: #4D4C5E;
+    font-weight: 700
+}
+.card-flight-time{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card__number{
+    font-size: 25px;
+    font-weight: 700;
+}
+.page-item{
+    margin: 0 5px;
+}
